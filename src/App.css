@@ -1,0 +1,107 @@
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #4c2a4c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+  border: none;
+  padding: 0;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #6d3d6d;
+  border: 0;
+  margin: 0;
+}
+
+.navbar h1 {
+  margin: 10px 0;
+}
+
+body {
+  background-color: #aadd12;
+}
+
+.book-list {
+  margin: 10px 0;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.book-list .author {
+  font-size: 0.9em;
+  color: #ddd;
+  text-transform: capitalize;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  margin: 10px auto;
+  /* background: #dde; */
+  background-color: #33aa55;
+  /* color: #fff; */
+  border: 0;
+  padding: 7px 20px;
+  display: block;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+input[placeholder] {
+  text-transform: capitalize;
+}
